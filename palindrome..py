@@ -1,4 +1,4 @@
-num = int(input("enter a number"))
+num = int(input())
 
 temp = num
 rev = 0
