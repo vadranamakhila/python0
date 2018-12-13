@@ -1,9 +1,9 @@
-num1 = int(input("enter a first number:"))
-num2 = int(input("enter a second number:"))
-num3 = int(input("enter a third number:"))
-if("num1>num2 and num1>num3"):
-    print(num1," is greater")
-elif("num2>num1 and num2>num3"):
-    print(num2, "is greater")
+n1 = int(input("enter a first number:"))
+n2 = int(input("enter a second number:"))
+n3 = int(input("enter a third number:"))
+if("n1>n2 and n1>n3"):
+    print(n1," is greater")
+elif("n2>n1 and n2>n3"):
+    print(n2, "is greater")
 else:
-    print(num3," is greater")
+    print(n3," is greater")
