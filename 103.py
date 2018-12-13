@@ -1,2 +1,2 @@
-str  = raw_input()
-print str.title() 
+s  = raw_input()
+print s.title() 
