@@ -1,2 +1,2 @@
-m,n=map(int,raw_input().split()) 
-print pow(m,n)
+r,s=map(int,raw_input().split()) 
+print pow(r,s)
