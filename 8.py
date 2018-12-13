@@ -1,3 +1,3 @@
-n = int(raw_input())
-n = (n*(n+1))/2
-print n
+m = int(raw_input())
+m = (m*(m+1))/2
+print m
