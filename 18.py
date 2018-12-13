@@ -1,12 +1,12 @@
 lower,upper=map(int,raw_input().split())
-for num in range(lower+1,upper):
-    order=len(str(num))
+for n in range(lower+1,upper):
+    order=len(str(n))
     sum=0
-    temp=num
+    temp=n
     while(temp>0):
         digit=temp%10
         sum+=digit**order
         temp//=10
-    if(num==sum):
+    if(n==sum):
         print sum
  
